@@ -1,20 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <article><h1>Привет</h1></article>
-    <aside><h1>Привет</h1></aside>
-    <details><h1>Привет</h1></details>
-    <figcaption><h1>Привет</h1></figcaption>
-    <figure><h1>Привет</h1></figure>
-    <footer><h1>Привет</h1></footer>
-    <header><h1>Привет</h1></header>
-    <main><h1>Привет</h1></main>
-    <mark><h1>Привет</h1></mark>
-    <nav><h1>Привет</h1></nav>
-    <section><h1>Привет</h1></section>
-    <summary><h1>Привет</h1></summary>
-    <time><h1>Привет</h1></time>
+    <header class="menu">
+        <div class="menu__icon">
+            <div class="menu__line"></div>
+            <div class="menu__line"></div>
+            <div class="menu__line"></div>
+        </div>
+        <div class="menu__person">
+            <div class="menu__name">Saifutdinov Roman</div>
+            <div class="menu__profession">#Trainee&nbsp;    |   &nbsp;#Front-end developer</div>
+            <div class="menu__hire">Hire Me!</div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="about-me"> 
+            <article class="about-me__info">
+                <div class="header">    
+                    <div class="header__main">About Me</div>
+                    <div class="header__line"></div>
+                </div>
+                <div class="header__text">Lorem, ipsum dolor sit amet, ecteur nonummy nibh euismod tincidunt ut laoreet magna laoreet aliquam erat volutpat.</div>
+                <div class="header__info"><strong>Name :</strong> Saifutdinov Roman</div>
+                <div class="header__info"><strong>Age :</strong> 23 years</div>
+                <div class="header__info"><strong>Email :</strong> romacyborg2014@gmail.com</div>
+                <div class="header__info"><strong>Web :</strong> deviserweb.com</div>
+                <div class="header__info"><strong>Address :</strong> 11/4, Chapaeva, Saint-Petersburg</div>
+            </article>
+            <article class="img"></article>
+        </section>
+        <section class="workEducation" id="work"> 
+        <div class="header">    
+            <div class="header__main">Work Experience</div>
+            <div class="header__line"></div>
+            <div class="btn__structure">
+                <div class="btn__position">
+                        <div class="btn__border">
+                            <button class="btn"></button>
+                        </div>
+                    </div>
+                    <div class="btn__position-short">
+                        <div class="btn__border">
+                            <button class="btn"></button>
+                        </div>
+                    </div>
+                    <div class="btn__position">
+                        <div class="btn__border">
+                            <button class="btn"></button>
+                        </div>
+                    </div>
+                    <div class="btn__position-end">
+                        <div class="btn__border">
+                            <button class="btn"></button>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <hr>
+        <section class="workEducation" id="education"> 
+            <div class="header"> 
+                <div class="header__main">Education</div>
+                <div class="header__line"></div>
+                <div class="btn__structure">
+                    <div class="btn__position">
+                            <div class="btn__border">
+                                <button class="btn"></button>
+                            </div>
+                        </div>
+                        <div class="btn__position-short">
+                            <div class="btn__border">
+                                <button class="btn"></button>
+                            </div>
+                        </div>
+                        <div class="btn__position">
+                            <div class="btn__border">
+                                <button class="btn"></button>
+                            </div>
+                        </div>
+                        <div class="btn__position-end">
+                            <div class="btn__border">
+                                <button class="btn"></button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="header"> 
+                <div class="header__main">My Skills</div>
+                <div class="header__line"></div>
+                <div class="sliders">
+                    <div class="sliders__col">
+                        <input type="range" min="0" max="100" step="1" value="50" class="slider" oninput="rangevalue.value=value"/>
+                       <!--  <output id="rangevalue">70</output>>  -->
+                        <input type="range" min="0" max="100" step="1" value="50" class="slider"> 
+                        <input type="range" min="0" max="100" step="1" value="50" class="slider"> 
+                    </div> 
+                    <div class="sliders__col">
+                        <input type="range" min="0" max="100" step="1" value="50" class="slider"> 
+                        <input type="range" min="0" max="100" step="1" value="50" class="slider"> 
+                        <input type="range" min="0" max="100" step="1" value="50" class="slider"> 
+                    </div> 
+                    <div class="sliders__col">
+                        <input type="range" min="0" max="100" step="1" value="50" class="slider"> 
+                        <input type="range" min="0" max="100" step="1" value="50" class="slider"> 
+                        <input type="range" min="0" max="100" step="1" value="50" class="slider"> 
+                    </div>  
+                </div> 
+            </div>
+        </section>
+        <section class="input-info">
+            <div> Leave a Message</div>
+            <div id="script"></div>
+        </section>
+    </main>
+    <hr>
+    <footer> 
+        Copyright: Junaed Ahmed. All rights reserved.
+        <br>
+        Site has been set up by Saifutdinov Roman.
+    </footer>
+    <script async src="script.js"></script>
 </body>
 </html>
